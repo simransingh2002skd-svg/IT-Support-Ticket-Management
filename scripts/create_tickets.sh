@@ -16,3 +16,4 @@ echo "Department    : $department"
 echo "Issue         : $issue"
 echo "Priority      : $priority"
 echo "Status        : Open"
+echo "$ticket_id | $employee_name | $department | $issue | $priority | Open" >> data/tickets.txt
